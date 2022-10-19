@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Slab", serif;
+}
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    135deg,
+    rgb(30, 250, 180),
+    rgb(180, 30, 250)
+  );
+}
+.form-wrapper {
+  width: 100%;
+  max-width: 500px;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(30, 250, 180, 0.4);
+}
+.title {
+  margin-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+}
+.form-group {
+  margin: 20px 0;
+}
+input {
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin: 5px 0;
+}
+label {
+  font-size: 15px;
+  font-weight: bold;
+}
+input:not([type="submit"]) {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+input[type="submit"] {
+  background-color: rgb(8, 131, 92);
+  color: white;
+  font-size: 20px;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(35, 235, 171);
+}
+input[type="submit"]:active {
+  background-color: rgb(28, 80, 63);
+}
+.error #emailError,
+.error #passwordError {
+  color: red;
+}
+.error input {
+  border: 2px solid #e32a2a;
+}
+.msg {
+  display: none;
+}
