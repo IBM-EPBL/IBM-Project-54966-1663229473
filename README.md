@@ -2,7 +2,8 @@
 Smart Fashion Recommender Application
  
  TEAM LEADER - AAISHA.M
- TEAM MEMBERS - KAVIYA.D
-                HARINI.R
-                HEMALATHA-S
-                SAVITHA.S            
+ 
+ TEAM MEMBERS - KAVIYA.D,
+                HARINI.R,
+                HEMALATHA.S,
+                SAVITHA.S.           
